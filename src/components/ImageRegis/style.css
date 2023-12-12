@@ -1,0 +1,83 @@
+
+
+.allRegister{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 700px;
+    margin-bottom: 50px;
+}
+
+
+.allInputs h1{
+    font-size: 40px;
+    color: white;
+}
+
+.allInputs h2{
+    color: #d6e8f1;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.allInputs input{
+    border-bottom: 1px solid #3C0375;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    color: #d4d4d4;
+    font-family: 'Inter';
+    width: 70%;
+    margin-bottom:20px ;
+    font-size: 17px;
+}
+
+.allInputs input:focus {
+    outline: none;
+  }
+
+.middle{
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons{
+    display: flex;
+    width: 100%;
+    margin-top: 3%;
+    gap: 20%;
+}
+
+.btnRegis{
+    background-color: #3C0375;
+    color: #ffffff;
+    width: 20%;
+    font-family: 'Inter';
+    font-weight: 600;
+    border-radius: 30px;
+    justify-content: center;
+    height: 50px;
+}
+
+.btnSign{
+    width: 20%;
+    color: #3C0375;
+    font-family: 'Inter';
+    font-weight: bold;
+    border-radius: 30px;
+    justify-content: center;
+    background-color: #ffffff;
+    height: 50px;
+}
+
+.nomes{
+    display: flex;
+    width: 100%;
+    
+}
+
+
+.name{
+    width: 41%;
+}

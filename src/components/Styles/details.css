@@ -1,0 +1,103 @@
+.containerDetails{
+    margin-left: 10%;
+    margin-top: 1%;
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.inputsDados{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.containerDetails h2{
+    color: #fff;
+    margin: 0;
+}
+
+.containerDetails label{
+    color: #fff;
+}
+
+.containerDetails input{
+    border-bottom: 1px solid #0077B6;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    color: #d4d4d4;
+    font-family: 'Inter';
+    width: 20%;
+    margin-bottom:20px ;
+    font-size: 17px;
+}
+
+.circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    border: 1px solid #0E0E0C;
+    justify-content: center;
+    background-color: #d4d4d4;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .circle img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #0E0E0C;
+    object-fit: cover;
+  }
+  
+  .circle span {
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color: #0077B6;
+    font-weight: 800;
+  }
+
+  .input_nomes{
+    display: flex;
+    gap:2rem;
+    margin-top: 2%;
+    width: 100%;
+  }
+
+  .nameInput{
+    width: 100%;
+  }
+
+.containerDetails h2{
+    margin-top:2rem ;
+    margin-bottom: 10px;
+}
+
+.containerDetails input{
+width: 70%;
+}
+
+.containerDetails button{
+    background-color: #0077B6;
+    width: 15%;
+    padding:10px;
+    border-radius: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.imageUpload{
+    margin-top: 13%;
+    margin-left: 20%;
+}
+
+.imageUpload input{
+    width: 60%;
+    margin-top: 3%;
+}

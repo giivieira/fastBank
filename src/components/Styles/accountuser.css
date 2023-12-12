@@ -1,0 +1,56 @@
+.containerAccount{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    color: #fff;
+    width: 100%;
+    margin-top: 1%;
+}
+.detail{
+    display: flex;
+    flex-direction: column;
+    color: #C5BFBF;
+}
+.containerAccount h1{
+    font-size: 3rem;
+}
+
+.containerAccount button{
+    background-color: #3C0375;
+    color: #fff;
+    width: 25%;
+    font-weight: 600;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 30px;
+}
+
+.informations h2{
+    color: #C5BFBF;
+}
+
+span{
+    margin-left: 40px;
+}
+
+.saldo{
+    color: #3C0375;
+    margin: 30px;
+}
+
+.mais-inform img{
+    width: 70%;
+}
+
+.mais-inform h3{
+    font-size: 3rem;
+    width: 70%;
+    letter-spacing: 5px;
+}
+
+.informations{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-top: 10%;
+}

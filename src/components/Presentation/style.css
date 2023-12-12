@@ -1,0 +1,40 @@
+.all{
+    margin-top: 7%;
+    display: flex;
+}
+
+.frase h1{
+    color: #fff;
+    width: 30%;
+    font-size: 5rem;
+    padding-left: 10%;
+    letter-spacing: 3px;
+    flex: 1;
+}
+
+.frase {
+    display: flex;
+}
+  
+#cartao {
+    flex: 1;
+    margin-right: 100px;
+    max-width: 30%;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    float: right;
+    margin-right: 15%;
+    width: 10%;
+    background-color: #222222;
+    border-radius: 30px;
+    padding: 15px;
+    color: #FFD600;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
