@@ -4,6 +4,7 @@ import { api } from '../../services/api'
 import '../ImageRegis/style.css'
 import Modal from 'react-modal';
 
+// Formulário para criar conta / solicitar cartão de crédito
 
 function ContainerInputs() {
 
@@ -105,6 +106,8 @@ function ContainerInputs() {
 
       </div>
 
+    // Configurando a foto do usuário
+
       <Modal
         isOpen={isModalOpen}
         onRequestClose={closeModal}
@@ -132,7 +135,7 @@ function ContainerInputs() {
             }}
           />
         ) : (
-          <span>No image </span>
+          <span>No image</span>
         )}
         <button
           style={{

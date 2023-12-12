@@ -21,3 +21,5 @@ function Card({ title, imageUrl, body }) {
 }
 
 export default Card
+
+// Cards de viagem, seguro, etc
